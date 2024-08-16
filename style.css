@@ -1,0 +1,30 @@
+body {
+    background-color: white;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.form input {
+    width: 50%;
+}
+
+marquee {
+    font-size: 85vh;
+    width: 100vw;
+}
+
+@media(max-width: 700px) {
+    .form input {
+        width: 90%;
+    }
+}
