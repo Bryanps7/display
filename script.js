@@ -8,8 +8,6 @@ function gerar() {
     let corText = document.getElementById('corText').value
     let speed = Number(document.getElementById('speed').value)
 
-    container.innerHTML = corBack.toLowerCase()
-
     if(corBack == 'rgb') {
         console.log('estou aqui')
         container.innerHTML = `
